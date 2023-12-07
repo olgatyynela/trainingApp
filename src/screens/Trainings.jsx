@@ -8,7 +8,7 @@ const columns = [
     { field: 'date', filter: true },
     { field: 'duration', headerName: 'Duration (min)', filter: true },
     {
-        field: 'customer.firstname' + 'customer.lastname',
+        field: 'customer.firstname',
         headerName: 'Customer',
         filter: true,
     },
